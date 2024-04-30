@@ -22,6 +22,8 @@ public class MainCliente {
 	 
 	    Operaciones.transferencia(cuentaCliente1, cuentaCliente2, 20.00);
 	    
+	    
+	    //Muestro la cuenta para ver el resultado de la transferenciaa
 	    System.out.println(cuentaCliente1.toString());
 
 	}
