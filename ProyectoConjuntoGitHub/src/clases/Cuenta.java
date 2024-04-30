@@ -18,7 +18,7 @@ public class Cuenta {
 	 * @param estado		Estado por defecto "Activa"
 	 */
 	
-	public Cuenta(String iban, Cliente cliente, double cantidad, String estado) {
+	public Cuenta(String iban, Cliente cliente, double cantidad) {
 		
 		this.iban = iban;
 		this.cliente = cliente;
@@ -56,6 +56,11 @@ public class Cuenta {
 
 	public void setEstado(String estado) {
 		this.estado = estado;
+	}
+
+	@Override
+	public String toString() {
+		return "Cuenta [iban=" + iban + ", cliente=" + cliente + ", cantidad=" + cantidad + ", estado=" + estado + "]";
 	}
 	
 	
