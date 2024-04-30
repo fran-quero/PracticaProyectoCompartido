@@ -8,7 +8,7 @@ public class Operaciones {
 	 * Transfiere si tiene suficiente cantidad la cuenta origen la cantidad indicada a otra
 	 * @param cuentaOrigen
 	 * @param cuentaDestino
-	 * @param cantidad
+	 * @param i
 	 */
 	public static void transferencia(Cuenta cuentaOrigen, Cuenta cuentaDestino, Double cantidad) {
 		
